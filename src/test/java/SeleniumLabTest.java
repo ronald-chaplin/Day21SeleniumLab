@@ -83,8 +83,8 @@ public class SeleniumLabTest {
         assertTrue(verification);
     }
 
-//    @AfterEach
-//    void tearDown(){
-//        driver.close();
-//    }
+    @AfterEach
+    void tearDown(){
+        driver.close();
+    }
 }
